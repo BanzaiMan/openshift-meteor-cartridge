@@ -8,7 +8,7 @@ locked_files:
 - ~/.meteor
 - ~/.meteor/**/*
 process_templates:
-- **/*.erb
+- '**/*.erb'
 setup_rewritten:
-- meteor/
-- meteor/**/*
+- 'meteor/'
+- 'meteor/**/*'
