@@ -94,15 +94,19 @@ function restart() {
 }  #  End of function  restart.
 
 function status {
+  true
 }
 
 function pre_build {
+  true
 }
 
 function build {
+  true
 }
 
 function reload {
+  true
 }
 
 function tidy {
@@ -113,27 +117,35 @@ function tidy {
 }
 
 function deploy {
+  true
 }
 
 function post_deploy {
+  true
 }
 
 function pre_snapshot {
+  true
 }
 
 function post_snapshot {
+  true
 }
 
 function pre_restore {
+  true
 }
 
 function post_restore {
+  true
 }
 
 function pre_repo_archive {
+  true
 }
 
 function update_configuration {
+  true
 }
 
 case "$1" in
